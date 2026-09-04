@@ -1,0 +1,24 @@
+{
+  "name": "dossie_daftpunk",
+  "version": "1.0.0",
+  "description": "Microsomativa 2, da matéria de Front-End, realizada no dia 04/09, em duplas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yasmin-Vitoria77/dossie_daftpunk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Yasmin-Vitoria77/dossie_daftpunk/issues"
+  },
+  "homepage": "https://github.com/Yasmin-Vitoria77/dossie_daftpunk#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
