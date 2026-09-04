@@ -6,3 +6,13 @@ body {
     background-attachment: fixed;
     background-color: #1a1a1a;
 }
+
+/* Faz o conteúdo ficar mais para baixo */
+main {
+    padding-top: 180px;
+}
+
+.card p {
+    font-size: 18px;
+    line-height: 1.5;
+}
