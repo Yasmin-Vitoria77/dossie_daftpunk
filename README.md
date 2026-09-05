@@ -72,5 +72,5 @@ Abra o arquivo index.html em um navegador de sua preferência.
 ---
 
 ## Desenvolvedoras
-Integrante 1: Emanuely Macedo Padovan
-Integrante 2: Yasmin Vitória do Nascimento Ramos
+- Integrante 1: Emanuely Macedo Padovan
+- Integrante 2: Yasmin Vitória do Nascimento Ramos
