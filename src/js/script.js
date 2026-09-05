@@ -57,7 +57,60 @@ const albuns = {
     random_access_memories: {
         nome: "Random Access Memories",
         ano: "2013",
-        musicas: []
+        musicas: [
+            {
+                nome: "Give Life Back to Music",
+                video: "https://www.youtube.com/watch?v=zKSsP2084nU&list=PLZ60rAdTLVNuCAWD8W3dZTLBXbSPda-DX&index=1&pp=iAQB8AUB"
+            },
+            {
+                nome: "The Game of Love",
+                video: "https://www.youtube.com/watch?v=_vOcbrUsmjM&list=PLZ60rAdTLVNuCAWD8W3dZTLBXbSPda-DX&index=2&pp=iAQB8AUB"
+            },
+            {
+                nome: "Giorgio by Moroder",
+                video: "https://www.youtube.com/watch?v=ZFZM6jDTWd4&list=PLZ60rAdTLVNuCAWD8W3dZTLBXbSPda-DX&index=3&pp=iAQB8AUB"
+            },
+            {
+                nome: "Within",
+                video: "https://www.youtube.com/watch?v=iNjGNNoUjkk&list=PLZ60rAdTLVNuCAWD8W3dZTLBXbSPda-DX&index=4&pp=iAQB8AUB"
+            },
+            {
+                nome: "Instant Crush",
+                video: "https://www.youtube.com/watch?v=khnokW3Mw24&list=PLZ60rAdTLVNuCAWD8W3dZTLBXbSPda-DX&index=5&pp=iAQB8AUB"
+            },
+            {
+                nome: "Lose Yourself to Dance",
+                video: "https://www.youtube.com/watch?v=iU7oF4OXZSE&list=PLZ60rAdTLVNuCAWD8W3dZTLBXbSPda-DX&index=6&pp=iAQB8AUB"
+            },
+            {
+                nome: "Touch",
+                video: "https://www.youtube.com/watch?v=RRMbhEdmhYw&list=PLZ60rAdTLVNuCAWD8W3dZTLBXbSPda-DX&index=7&pp=iAQB8AUB"
+            },
+            {
+                nome: "Get Lucky",
+                video: "https://www.youtube.com/watch?v=4D7u5KF7SP8&list=PLZ60rAdTLVNuCAWD8W3dZTLBXbSPda-DX&index=8&pp=iAQB8AUB"
+            },
+            {
+                nome: "Beyond",
+                video: "https://www.youtube.com/watch?v=RE_XX6jk2Lo&list=PLZ60rAdTLVNuCAWD8W3dZTLBXbSPda-DX&index=9&pp=iAQB8AUB"
+            },
+            {
+                nome: "Motherboard",
+                video: "https://www.youtube.com/watch?v=3x-Q-iRvib4&list=PLZ60rAdTLVNuCAWD8W3dZTLBXbSPda-DX&index=10&pp=iAQB8AUB0gcJCRoMAYcqIYzv"
+            },
+            {
+                nome: "Fragments of Time",
+                video: "https://www.youtube.com/watch?v=3rpQTqpFTF4&list=PLZ60rAdTLVNuCAWD8W3dZTLBXbSPda-DX&index=11&pp=iAQB8AUB0gcJCRoMAYcqIYzv"
+            },
+            {
+                nome: "Doin' It Right",
+                video: "https://www.youtube.com/watch?v=wmSkU6R9Zi8&list=PLZ60rAdTLVNuCAWD8W3dZTLBXbSPda-DX&index=12&pp=iAQB8AUB"
+            },
+            {
+                nome: "Contact",
+                video: "https://www.youtube.com/watch?v=JF_QVNfyRY8&list=PLZ60rAdTLVNuCAWD8W3dZTLBXbSPda-DX&index=14&pp=iAQB8AUB"
+            }
+        ]
     }
 
 };
