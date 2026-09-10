@@ -2,6 +2,7 @@ const albuns = {
     homework: {
         nome: "Homework",
         ano: "1997",
+        capa: "../src/img/capa_homework.jpg",
         musicas: [
             {
                 nome: "Daftendirekt",
@@ -72,11 +73,13 @@ const albuns = {
     discovery: {
         nome: "Discovery",
         ano: "2001",
+        capa: "../src/img/capa_homework.jpg",
         musicas: []
     },
     human_after_all: {
         nome: "Human After All",
         ano: "2005",
+        capa: "../src/img/capa_homework.jpg",
         musicas: [
             {
                 nome: "Human After All",
@@ -122,6 +125,7 @@ const albuns = {
     random_access_memories: {
         nome: "Random Access Memories",
         ano: "2013",
+        capa: "../src/img/capa_homework.jpg",
         musicas: [
             {
                 nome: "Give Life Back to Music",
@@ -195,22 +199,36 @@ else if (pagina.includes("random_access_memories")) {
 
 function carregarAlbum(album) {
     const lista = document.getElementById("lista-musicas");
+
     if (!lista) {
         return;
     }
+
     album.musicas.forEach(function (musica, index) {
+
         const coluna = document.createElement("div");
         coluna.className = "col-12 col-md-6 col-lg-4";
+
         coluna.innerHTML = `
-        <div class="card bg-dark text-white h-100 shadow">
-            <img src="../src/img/capa-musicas.jpg" alt="Capa do álbum Human After All" class="card-img-top music-image">
-        <div class="card-body text-center p-4">
-            <p class="text-secondary fw-bold">${String(index + 1).padStart(2, "0")}</p>
-            <h3 class="h5 fw-bold">${musica.nome}</h3>
-            <a href="${musica.video}" target="_blank" class="btn btn-light mt-3">Assistir videoclipe</a>
+            <div class="bg-dark p-2 shadow-lg h-100">
+                <div class="d-flex align-items-center gap-2 px-2 py-2">
+                    <span class="bg-light rounded-circle p-1"></span>
+                    <span class="bg-light rounded-circle p-1"></span>
+                    <span class="bg-light rounded-circle p-1"></span>
+                </div>
+
+                <div class="ratio ratio-1x1">
+                    <img src="../src/img/capa-musicas.jpg" alt="Capa da música ${musica.nome}"class="img-fluid object-fit-cover">
+                </div>
+
+                <div class="text-white text-center p-3 border-top border-secondary">
+                    <p class="mb-1 text-secondary fw-bold">${String(index + 1).padStart(2, "0")}</p>
+                    <h3 class="h5 fw-bold mb-3">${musica.nome}</h3>
+                    <a href="${musica.video}" target="_blank" class="btn btn-light btn-sm">Assistir videoclipe</a>
+                </div>
             </div>
-        </div>
-`;
+        `;
+
         lista.appendChild(coluna);
     });
 }
