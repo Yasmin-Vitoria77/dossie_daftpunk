@@ -73,6 +73,7 @@ const albuns = {
     discovery: {
         nome: "Discovery",
         ano: "2001",
+        capa: "../src/img/Daft_Punk_Discovery.jpg",
         musicas: [
             {
                 nome: "One More Time",
@@ -135,7 +136,7 @@ const albuns = {
     human_after_all: {
         nome: "Human After All",
         ano: "2005",
-        capa: "../src/img/capa_homework.jpg",
+        capa: "../src/img/human-after-all.jpg",
         musicas: [
             {
                 nome: "Human After All",
@@ -181,7 +182,7 @@ const albuns = {
     random_access_memories: {
         nome: "Random Access Memories",
         ano: "2013",
-        capa: "../src/img/capa_homework.jpg",
+        capa: "../src/img/random-access-memories.jpg",
         musicas: [
             {
                 nome: "Give Life Back to Music",
@@ -274,7 +275,7 @@ function carregarAlbum(album) {
                 </div>
 
                 <div class="ratio ratio-1x1">
-                    <img src="../src/img/capa-musicas.jpg" alt="Capa da música ${musica.nome}"class="img-fluid object-fit-cover">
+                    <img src="${album.capa}" alt="Capa da música ${musica.nome}"class="img-fluid object-fit-cover">
                 </div>
 
                 <div class="text-white text-center p-3 border-top border-secondary">
