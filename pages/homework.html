@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dossiê da dupla "Daft Punk"</title>
+    <title>Human After All | Daft Punk</title>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
@@ -13,19 +14,54 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a href="../pages/sobre.html" class="nav-link text-white">Sobre</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-white">Homework</a></li>
+                    <li class="nav-item"><a href="../pages/homework.html" class="nav-link text-white">Homework</a></li>
                     <li class="nav-item"><a href="../pages/discovery.html" class="nav-link text-white">Discovery</a></li>
-                    <li class="nav-item"><a href="../pages/human_after_all.html" class="nav-link text-white">Human After All </a></li>
+                    <li class="nav-item"><a href="#" class="nav-link active">Human After All</a></li>
                     <li class="nav-item"><a href="../pages/random_access_memories.html" class="nav-link text-white">Random Access Memories</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <main>
+        <section class="container py-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-md-5 text-center">
+                    <img src="../src/img/capa_homework.jpg" alt="Capa do álbum Homework" class="img-fluid rounded shadow">
+                </div>
+
+                <div class="col-12 col-md-7">
+                    <p class="text-secondary text-uppercase fw-bold mb-2">Álbum • 1997</p>
+                    <h1 class="display-4 fw-bold">Homework</h1>
+                    <p class="lead">Homewrok, álbum introdutório, lançado em 1997.</p>
+                    <p>Os lançou ao estrelato e definiu a cena house dos anos 90 com hits crus para as pistas de dança</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-5">
+            <div class="text-center mb-5">
+                <p class="text-secondary text-uppercase fw-bold mb-1">Faixas</p>
+                <h2 class="display-6 fw-bold">Músicas do álbum</h2>
+                <p class="text-muted">Clique em uma música para assistir ao videoclipe.</p>
+            </div>
+
+            <div id="lista-musicas" class="row g-4"></div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-3 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 Dossiê da dupla "Daft Punk". Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../src/js/script.js"></script>
 </body>
+
 </html>

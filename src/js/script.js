@@ -2,7 +2,72 @@ const albuns = {
     homework: {
         nome: "Homework",
         ano: "1997",
-        musicas: []
+        musicas: [
+            {
+                nome: "Daftendirekt",
+                video: "https://youtu.be/yuoghR-5-Xs?si=YhzTv8-Rn2qgSKUv"
+            },
+            {
+                nome: "WDPK 83.7 FM",
+                video: "https://youtu.be/OzZAHvq_UqI?si=Po4uVmF3NduZ8BCt"
+            },
+            {
+                nome: "Revolution 909",
+                video: "https://youtu.be/Wtd6DvLoCsU?si=vtKS-VRqluqV1uwy"
+            },
+            {
+                nome: "Da Funk",
+                video: "https://youtu.be/PwILkY9gRrc?si=j2SKW_etgUPQXzvA"
+            },
+            {
+                nome: "Phoenix",
+                video: "https://youtu.be/5AJ8yHebaok?si=9l3MQWRyZBIGDTZy"
+            },
+            {
+                nome: "Fresh",
+                video: "https://youtu.be/LMNlm7khYwA?si=rirGNXfqvOWN1Vi6"
+            },
+            {
+                nome: "Aaround the World",
+                video: "https://youtu.be/dwDns8x3Jb4?si=hZ-KfJKsir6BvNGy"
+            },
+            {
+                nome: "Rollin' & Scratchin'",
+                video: "https://youtu.be/q27KtfR1ESA?si=QUhTvek4zBP39yRu"
+            },
+            {
+                nome: "Teachers",
+                video: "https://youtu.be/3yq-NFiEywo?si=ELBTWrenICKg8cAy"
+            },
+            {
+                nome: "High Fidelity",
+                video: "https://youtu.be/JXWkKO4eplY?si=c_NvCzha9E86fyFx"
+            },
+            {
+                nome: "Rock'n Roll",
+                video: "https://youtu.be/ZW7WfdTuth8?si=awJDbKZs1xTZ4Igi"
+            },
+            {
+                nome: "Oh Yeah",
+                video: "https://youtu.be/zr28TRk9vCg?si=iC1IiV_bGzdr3Q49"
+            },
+            {
+                nome: "Burnin'",
+                video: "https://youtu.be/E2lGIsrhlGA?si=ocMeA2OmDpk_U6Bl"
+            },
+            {
+                nome: "Indo Silver Clube",
+                video: " https://youtu.be/VubH7FuW6TQ?si=wmLj3jGRyq-n7VfB"
+            },
+            {
+                nome: "Alive",
+                video: "https://youtu.be/WY8hqzYT_uk?si=rBTY7pWLrFlmZkSy"
+            },
+            {
+                nome: "Funk Ad",
+                video: "https://youtu.be/YqUyNvGsM9s?si=yeO3z97ovwgRzG7l"
+            }
+        ]
     },
     discovery: {
         nome: "Discovery",
@@ -110,10 +175,9 @@ const albuns = {
                 nome: "Contact",
                 video: "https://www.youtube.com/watch?v=JF_QVNfyRY8&list=PLZ60rAdTLVNuCAWD8W3dZTLBXbSPda-DX&index=14&pp=iAQB8AUB"
             }
-        ]
-    }
-
-};
+        ],
+    },
+}
 
 const pagina = window.location.pathname;
 if (pagina.includes("homework")) {
