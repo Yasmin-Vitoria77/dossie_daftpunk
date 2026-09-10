@@ -73,8 +73,64 @@ const albuns = {
     discovery: {
         nome: "Discovery",
         ano: "2001",
-        capa: "../src/img/capa_homework.jpg",
-        musicas: []
+        musicas: [
+            {
+                nome: "One More Time",
+                video: "https://youtu.be/A2VpR8HahKc?si=UvJqBD7M1FIA-n3H" 
+            },
+            {
+                nome: "Aerodynamic",
+                video: "https://youtu.be/Mjpu0-o9iek?si=kXcmA5IY5l6UsqP0"
+            },
+            {
+                nome: "Digital Love",
+                video: "https://youtu.be/4whD6uAryMs?si=9ngH8EL9SrDkRT5N"
+            },
+            {
+                nome: "Harder, Better, Faster, Stronger",
+                video: "https://youtu.be/yydNF8tuVmU?si=LJFAQpVQJ-ti4fG3"
+            },
+            {
+                nome: "Crescendolls",
+                video: "https://youtu.be/oor2uIqys8M?si=_Du-0GU6YOuKkkAK"
+            },
+            {
+                nome: "Nightvision",
+                video: "https://youtu.be/NQ-mm1H7uJw?si=s--60UwpPg4oUxMz"
+            },
+            {
+                nome: "Superheroes",
+                video: "https://youtu.be/UBGfS7S9BYg?si=Dwd5gcMA49UL_7oq"
+            },
+            {
+                nome: "High Life",
+                video: "https://youtu.be/KlUtJOTmmk8?si=YX7re9zr6w9lCaWq"
+            },
+            {
+                nome: "Something About Us",
+                video: "https://youtu.be/em0MknB6wFo?si=nh6hgohKxOp2H4Vd"
+            },
+            {
+                nome: "Voyager",
+                video: "https://youtu.be/INbgG9M0WYE?si=av0GdLAFwBNaoGZd"
+            },
+            {
+                nome: "Veridis Quo",
+                video: "https://youtu.be/TCd6PfxOy0Y?si=rf1LI2ZdlI0uUn-5"
+            },
+            {
+                nome: "Short Circuit",
+                video: "https://youtu.be/9hhVnRTNVmM?si=tpM9hYg6sdwWgFN1"
+            },
+            {
+                nome: "Face to Face",
+                video: "https://youtu.be/UKYWWfR_GKA?si=rWvNPyreJifN_U0-"
+            },
+            {
+                nome: "Too Long",
+                video: "https://youtu.be/ROF4uNjrB4U?si=kd_cbsrqW2-yULp2"
+            }
+        ]
     },
     human_after_all: {
         nome: "Human After All",
