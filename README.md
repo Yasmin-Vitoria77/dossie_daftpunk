@@ -40,7 +40,7 @@ dossie_daftpunk/
 │   ├── css/
 │   │   ├── style.css      # Estilos gerais/globais
 │   ├── js/
-│   │   ├── main.js        # Scripts gerais (configuração "automática" dos cards)
+│   │   ├── script.js        # Scripts gerais (configuração "automática" dos cards)
 │   └── img/            # Capa dos álbuns e músicas
 ├── .gitignore
 ├── README.md
